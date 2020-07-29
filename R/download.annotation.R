@@ -1,4 +1,4 @@
-#' Title
+#' Telecharge les annotations
 #'
 #' @param species a vector of character including the species that we want to analyze
 #' @param maxOrganism a value with the number of genome we want to download for each species

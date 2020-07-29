@@ -1,6 +1,5 @@
 #' extract a table of bacteria with accession numbers based on the genome package
 #'
-#' to compute later
 #'
 #' @param phylum a data.frame that can be produced by the function extract.phylum
 #' @return a table with the one line for each genome available
