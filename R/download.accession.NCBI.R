@@ -11,6 +11,7 @@
 download.accession.NCBI <- function(species,title,accessionDir)
 {
   library(Biostrings)
+  library(reutils)
   species2 = gsub("_"," ",species)
   for (i in 1:length(species)) {
 
