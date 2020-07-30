@@ -12,6 +12,7 @@
 #' @examples
 dl.annot.genome <- function(species,NmaxPlasmid=1000, annotationDir,genomeDir,accessionDir)
 {
+  library(ape)
   for (j in 1:length(species)) {
     dir.create(paste0(annotationDir,species[j]))
     dir.create(paste0(genomeDir,species[j]))
