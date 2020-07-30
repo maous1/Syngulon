@@ -13,5 +13,5 @@ extract.bacteria.table(phylum)
 a table with the one line for each genome available
 }
 \description{
-to compute later
+extract a table of bacteria with accession numbers based on the genome package
 }

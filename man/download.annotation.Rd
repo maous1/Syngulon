@@ -2,7 +2,7 @@
 % Please edit documentation in R/download.annotation.R
 \name{download.annotation}
 \alias{download.annotation}
-\title{Title}
+\title{Telecharge les annotations}
 \usage{
 download.annotation(
   species,
@@ -27,5 +27,5 @@ download.annotation(
 
 }
 \description{
-Title
+Telecharge les annotations
 }

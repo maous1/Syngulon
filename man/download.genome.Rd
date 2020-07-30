@@ -2,7 +2,7 @@
 % Please edit documentation in R/download.genome.R
 \name{download.genome}
 \alias{download.genome}
-\title{Downlaod genomes of selected species}
+\title{Download genomes of selected species}
 \usage{
 download.genome(species, maxOrganism, indextostart, accessionDir, outDir)
 }
@@ -21,5 +21,5 @@ download.genome(species, maxOrganism, indextostart, accessionDir, outDir)
 
 }
 \description{
-Downlaod genomes of selected species
+Download genomes of selected species
 }
