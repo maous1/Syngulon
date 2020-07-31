@@ -50,4 +50,5 @@ extract.sequences.annotation <- function(species,annotationDir,outDir,genomeDir)
       }
     }
   }
+  return(currentannotationfull)
 }

@@ -4,7 +4,7 @@
 \alias{download.accession.NCBI}
 \title{Telecharge les accessions list sur NCBI}
 \usage{
-download.accession.NCBI(species, title, accessionDir)
+download.accession.NCBI(species, title, accessionDir, index)
 }
 \arguments{
 \item{accessionDir}{}

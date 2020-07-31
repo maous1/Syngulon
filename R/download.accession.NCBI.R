@@ -8,12 +8,12 @@
 #' @export
 #'
 #' @examples
-download.accession.NCBI <- function(species,title,accessionDir)
+download.accession.NCBI <- function(species,title,accessionDir,index)
 {
   library(Biostrings)
   library(reutils)
   species2 = gsub("_"," ",species)
-  for (i in 1:length(species)) {
+  for (i in index:length(species)) {
 
   demo.search <- esearch(term = paste0(species2[i],"[orgn] and ",title,"[title]"), db = 'nuccore', usehistory = TRUE) #search
   accessions <- efetch(demo.search, rettype = "acc",retmode = "text",outfile= paste0(accessionDir,species[i],".csv"))#fetch accessions
