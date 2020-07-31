@@ -15,7 +15,7 @@ download.accession.NCBI <- function(species,title,accessionDir,index)
   species2 = gsub("_"," ",species)
   for (i in index:length(species)) {
 
-  demo.search <- esearch(term = paste0(species2[i],"[orgn] and ",title,"[title]"), db = 'nuccore', usehistory = TRUE) #search
+  demo.search <- esearch(term = paste0(species2[i],"[orgn] and ",title,"[title] and complete [title]"), db = 'nuccore', usehistory = TRUE) #search
   accessions <- efetch(demo.search, rettype = "acc",retmode = "text",outfile= paste0(accessionDir,species[i],".csv"))#fetch accessions
   accession  <- read.csv(paste0('01-accession-list/',species[i],".csv"),header=F,stringsAsFactors = F)
   accession$V1 <- unlist(lapply(strsplit(accession$V1,split='\\.'),function(x) x[[1]]))
