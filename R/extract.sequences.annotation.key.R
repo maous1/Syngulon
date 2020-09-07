@@ -1,4 +1,4 @@
-#' extrait les sequences comportants colicin dans le produit
+#' extrait les sequences comportant colicin et ne comportant pas resistance et immunity dans le produit des annotations utilisé pour les key
 #'
 #' @param species
 #' @param annotationDir

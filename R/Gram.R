@@ -1,4 +1,4 @@
-#' ajoute si le sous-groupe fait partie des bactéries gram + ou -
+#' ajoute si le sous-groupe fait partie des bactéries gram + ou - se fait apres un analyse annotation ou blasttable
 #'
 #' @param presence.summary.subgroup
 #'

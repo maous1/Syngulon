@@ -1,4 +1,4 @@
-#' telecharge les fichiers d'annotations et des genomes
+#' telecharge les fichiers d'annotations et des genomes en lui fournissant des accessions numbers
 #'
 #' @param species
 #' @param NmaxPlasmid

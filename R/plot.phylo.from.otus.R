@@ -1,6 +1,6 @@
-#' A function to plot phylogenetic tree of all genes based on fasta file in the consensus directory
+#' A function to plot phylogenetic tree of all genes based on fasta file in the otus directory
 #'
-#' @param otusDir the directory with the consensus
+#' @param otusDir the directory with the otus
 #' @param bacteria.table bacteria table
 #'
 #' @return

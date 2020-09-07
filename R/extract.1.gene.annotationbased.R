@@ -1,4 +1,4 @@
-#' Title
+#' utiliser dans extract all genes. La fonction va isoler un gene dans le repertoire outDir
 #'
 #' @param selectedspecies
 #' @param selectedgene

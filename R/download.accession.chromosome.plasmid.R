@@ -1,4 +1,4 @@
-#' Title Create accession csv file
+#' Create accession csv file à la base du package genome. il sort les accessions numbers des chromosomes et des plasmides
 #'
 #' @param species a vector of character including the species that we want to analyze
 #' @param bacteria.table The bacteria table produced by the create.bacteria.table function

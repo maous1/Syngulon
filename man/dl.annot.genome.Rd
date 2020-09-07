@@ -9,7 +9,8 @@ dl.annot.genome(
   NmaxPlasmid = 1000,
   annotationDir,
   genomeDir,
-  accessionDir
+  accessionDir,
+  index
 )
 }
 \arguments{

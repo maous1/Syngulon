@@ -1,4 +1,4 @@
-#' Screen a sequence using Blast
+#' Screen a sequence using Blast. utiliser pour les keys
 #'
 #' You provide a reference and a querry and the function compute the percentage of the reference which is covered by the querry
 #' @param reference the reference sequence that you want to screen. Fasta file in one or severa sequences
