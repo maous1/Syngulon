@@ -2,7 +2,7 @@
 % Please edit documentation in R/screen.blastkey.R
 \name{screenBlastkey}
 \alias{screenBlastkey}
-\title{Screen a sequence using Blast}
+\title{Screen a sequence using Blast. utiliser pour les keys}
 \usage{
 screenBlastkey(reference, querry, min.pc.ident, min.pc.length, geneDir)
 }

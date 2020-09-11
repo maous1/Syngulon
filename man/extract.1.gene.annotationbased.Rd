@@ -2,7 +2,7 @@
 % Please edit documentation in R/extract.1.gene.annotationbased.R
 \name{extract.1.gene.annotationbased}
 \alias{extract.1.gene.annotationbased}
-\title{Title}
+\title{utiliser dans extract all genes. La fonction va isoler un gene dans le repertoire outDir}
 \usage{
 extract.1.gene.annotationbased(
   selectedspecies = "ecoli",
@@ -19,5 +19,5 @@ extract.1.gene.annotationbased(
 
 }
 \description{
-Title
+utiliser dans extract all genes. La fonction va isoler un gene dans le repertoire outDir
 }

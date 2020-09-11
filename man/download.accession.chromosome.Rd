@@ -2,7 +2,7 @@
 % Please edit documentation in R/download.accession.chromosome.R
 \name{download.accession.chromosome}
 \alias{download.accession.chromosome}
-\title{Title Create accession csv file}
+\title{Create accession csv file à la base du package genome. il sort les accessions numbers des chromosomes}
 \usage{
 download.accession.chromosome(species, bacteria.table, outDir)
 }
@@ -17,5 +17,5 @@ download.accession.chromosome(species, bacteria.table, outDir)
 
 }
 \description{
-Title Create accession csv file
+Create accession csv file à la base du package genome. il sort les accessions numbers des chromosomes
 }

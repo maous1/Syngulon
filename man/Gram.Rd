@@ -2,7 +2,7 @@
 % Please edit documentation in R/Gram.R
 \name{Gram}
 \alias{Gram}
-\title{ajoute si le sous-groupe fait partie des bactéries gram + ou -}
+\title{ajoute si le sous-groupe fait partie des bactéries gram + ou - se fait apres un analyse annotation ou blasttable}
 \usage{
 Gram(presence.summary.subgroup)
 }
@@ -13,5 +13,5 @@ Gram(presence.summary.subgroup)
 
 }
 \description{
-ajoute si le sous-groupe fait partie des bactéries gram + ou -
+ajoute si le sous-groupe fait partie des bactéries gram + ou - se fait apres un analyse annotation ou blasttable
 }

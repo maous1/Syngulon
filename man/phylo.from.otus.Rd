@@ -2,12 +2,12 @@
 % Please edit documentation in R/plot.phylo.from.otus.R
 \name{phylo.from.otus}
 \alias{phylo.from.otus}
-\title{A function to plot phylogenetic tree of all genes based on fasta file in the consensus directory}
+\title{A function to plot phylogenetic tree of all genes based on fasta file in the otus directory}
 \usage{
 phylo.from.otus(otusDir, bacteria.table)
 }
 \arguments{
-\item{otusDir}{the directory with the consensus}
+\item{otusDir}{the directory with the otus}
 
 \item{bacteria.table}{bacteria table}
 }
@@ -15,5 +15,5 @@ phylo.from.otus(otusDir, bacteria.table)
 
 }
 \description{
-A function to plot phylogenetic tree of all genes based on fasta file in the consensus directory
+A function to plot phylogenetic tree of all genes based on fasta file in the otus directory
 }

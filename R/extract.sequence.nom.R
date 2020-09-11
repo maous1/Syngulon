@@ -1,4 +1,4 @@
-#' extrait les sequences comportant colicin et ne comportant pas resistance et immunity dans le produit des annotations utilisé pour les key
+#' extrait les sequences comportant colicin et ne comportant pas resistance,immunity et transporter dans le produit des annotations utilisé pour les key
 #'
 #' @param species
 #' @param annotationDir
@@ -9,7 +9,7 @@
 #' @export
 #'
 #' @examples
-extract.sequences.annotation <- function(species,annotationDir,outDir,genomeDir)
+extract.sequences.annotation.nom <- function(species,annotationDir,outDir,genomeDir)
 {
   library(dplyr)
   library(Biostrings)
@@ -34,9 +34,9 @@ extract.sequences.annotation <- function(species,annotationDir,outDir,genomeDir)
               gene = reverse(gene)
             }
             names(gene)= paste0(names(sequences),'-',k)
-            ecrire = c(ecrire,gene)
+            writeXStringSet(gene,paste0(outDir,species[i],"/",names(sequences),"-",k,".fasta"))
           }
-          writeXStringSet(ecrire,paste0(outDir,species[i],"/",names(sequences),".fasta"))
+
         }
 
         if (boolean==0 & dim(currentannotation)[1]>1) {

@@ -2,7 +2,7 @@
 % Please edit documentation in R/dl.annot.genome.R
 \name{dl.annot.genome}
 \alias{dl.annot.genome}
-\title{telecharge les fichiers d'annotations et des genomes}
+\title{telecharge les fichiers d'annotations et des genomes en lui fournissant des accessions numbers}
 \usage{
 dl.annot.genome(
   species,
@@ -20,5 +20,5 @@ dl.annot.genome(
 
 }
 \description{
-telecharge les fichiers d'annotations et des genomes
+telecharge les fichiers d'annotations et des genomes en lui fournissant des accessions numbers
 }
