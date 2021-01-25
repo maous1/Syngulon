@@ -8,7 +8,7 @@
 #' @export
 #'
 #' @examples
-download.accession.NCBI <- function(species,title,accessionDir,index)
+download.accession.NCBI.chromosome <- function(accessionDir)
 {
   library(Biostrings)
   library(reutils)
@@ -18,7 +18,7 @@ download.accession.NCBI <- function(species,title,accessionDir,index)
   accessions <- efetch(demo.search, rettype = "acc",retmode = "text",outfile= paste0(accessionDir,species[i],".csv"))#fetch accessions
   accession  <- read.csv(paste0('01-accession-list/',species[i],".csv"),header=F,stringsAsFactors = F)
   accession$V1 <- unlist(lapply(strsplit(accession$V1,split='\\.'),function(x) x[[1]]))
-  write.csv(accession,paste0(accessionDir,'-',i,".csv"),row.names = F)
+  write.csv(accession,paste0(accessionDir,'cholerae-',i,".csv"),row.names = F)
   print(i)
 
 }
