@@ -2,20 +2,16 @@
 % Please edit documentation in R/download.accession.chromosome.R
 \name{download.accession.chromosome}
 \alias{download.accession.chromosome}
-\title{Create accession csv file à la base du package genome. il sort les accessions numbers des chromosomes}
+\title{Telecharge les accessions list sur NCBI}
 \usage{
-download.accession.chromosome(species, bacteria.table, outDir)
+download.accession.chromosome(accessionDir)
 }
 \arguments{
-\item{species}{a vector of character including the species that we want to analyze}
-
-\item{bacteria.table}{The bacteria table produced by the create.bacteria.table function}
-
-\item{outDir}{The output directory}
+\item{accessionDir}{}
 }
 \value{
 
 }
 \description{
-Create accession csv file à la base du package genome. il sort les accessions numbers des chromosomes
+Telecharge les accessions list sur NCBI
 }
