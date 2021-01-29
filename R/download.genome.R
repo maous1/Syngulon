@@ -5,7 +5,7 @@
 #' @param indextostart : the index to restart the analysis. for example, if you interupted the analysis after 20 species, you can specify indextorestart=21
 #' @param accessionDir the directory where the accession files can be found
 #' @param outDir The output directory
-#' @return
+#' @return Ecrit dans un fichier fasta le génome
 #' @export
 
 
@@ -28,9 +28,10 @@ download.genome <- function(species,indextostart,accessionDir,outDir)
     dir.create(paste0(outDir,species[i]))
 
     accession <- read.csv(accession.list[grep(species[i],accession.list)],stringsAsFactors = F)
+    colnames(accession)="accession"
     accession  <- accession$accession
     N.accession <- length(accession)
-    for(j in 1:min(c(maxOrganism,N.accession)))
+    for(j in 1:N.accession)
     {
       current.accession <- accession[j]
       current.accession <- strsplit(current.accession,split='-')[[1]]

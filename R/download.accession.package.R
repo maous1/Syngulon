@@ -4,7 +4,7 @@
 #' @param bacteria.table The bacteria table produced by the create.bacteria.table function
 #' @param outDir The output directory
 #'
-#' @return
+#' @return Ecrit dans le repertoire un fichier csv contenant les accessions listes
 #' @export
 #'
 #' @examples

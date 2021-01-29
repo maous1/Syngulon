@@ -4,18 +4,18 @@
 \alias{download.genome}
 \title{Download genomes of selected species}
 \usage{
-download.genome(species, maxOrganism, indextostart, accessionDir, outDir)
+download.genome(species, indextostart, accessionDir, outDir)
 }
 \arguments{
 \item{species}{a vector of character including the species that we want to analyze}
-
-\item{maxOrganism}{a value with the number of genome we want to download for each species}
 
 \item{indextostart}{: the index to restart the analysis. for example, if you interupted the analysis after 20 species, you can specify indextorestart=21}
 
 \item{accessionDir}{the directory where the accession files can be found}
 
 \item{outDir}{The output directory}
+
+\item{maxOrganism}{a value with the number of genome we want to download for each species}
 }
 \value{
 
