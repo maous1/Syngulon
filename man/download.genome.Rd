@@ -18,7 +18,7 @@ download.genome(species, indextostart, accessionDir, outDir)
 \item{maxOrganism}{a value with the number of genome we want to download for each species}
 }
 \value{
-
+Ecrit dans un fichier fasta le génome
 }
 \description{
 Download genomes of selected species

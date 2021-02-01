@@ -4,18 +4,10 @@
 \alias{download.annotation}
 \title{Telecharge les annotations}
 \usage{
-download.annotation(
-  species,
-  maxOrganism = 20,
-  indextostart,
-  accessionDir,
-  outDir
-)
+download.annotation(species, indextostart, accessionDir, outDir)
 }
 \arguments{
 \item{species}{a vector of character including the species that we want to analyze}
-
-\item{maxOrganism}{a value with the number of genome we want to download for each species}
 
 \item{indextostart}{: the index to restart the analysis. for example, if you interupted the analysis after 20 species, you can specify indextorestart=21}
 
@@ -24,7 +16,7 @@ download.annotation(
 \item{outDir}{The output directory}
 }
 \value{
-
+un fichier par souche contenant les annotations dans le repertoire de sortie
 }
 \description{
 Telecharge les annotations

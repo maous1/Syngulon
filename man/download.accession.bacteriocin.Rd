@@ -2,16 +2,16 @@
 % Please edit documentation in R/download.accession.bacteriocin.R
 \name{download.accession.bacteriocin}
 \alias{download.accession.bacteriocin}
-\title{Telecharge les accessions list sur NCBI}
+\title{Telecharge les accessions de bacteriocin sur NCBI}
 \usage{
-download.accession.bacteriocin(accessionDir)
+download.accession.bacteriocin(outDir)
 }
 \arguments{
-\item{accessionDir}{}
+\item{outDir}{The output directory}
 }
 \value{
-
+Ecrit dans le repertoire un fichier csv contenant les accessions listes
 }
 \description{
-Telecharge les accessions list sur NCBI
+Telecharge les accessions de bacteriocin sur NCBI
 }

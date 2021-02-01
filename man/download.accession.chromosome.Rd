@@ -2,16 +2,16 @@
 % Please edit documentation in R/download.accession.chromosome.R
 \name{download.accession.chromosome}
 \alias{download.accession.chromosome}
-\title{Telecharge les accessions list sur NCBI}
+\title{Telecharge les accessions list des chromosomes 1 et 2 de vibrio cholerae sur NCBI}
 \usage{
-download.accession.chromosome(accessionDir)
+download.accession.chromosome(outDir)
 }
 \arguments{
-\item{accessionDir}{}
+\item{outDir}{output directory}
 }
 \value{
-
+Ecrit dans le repertoire un fichier csv contenant les accessions listes
 }
 \description{
-Telecharge les accessions list sur NCBI
+Telecharge les accessions list des chromosomes 1 et 2 de vibrio cholerae sur NCBI
 }
